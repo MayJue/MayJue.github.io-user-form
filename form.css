@@ -1,0 +1,34 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/8d/e0/b1/8de0b15a997e6ff9be4b9b546687f167.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color:white;
+    text-shadow: rgb(2, 24, 2) 1px 1px 2px;
+}
+p {
+    text-align: center;
+}
+
+.name {
+    display: flex;
+}
+
+.email {
+    margin-top: 1%;
+}
+
+.name input {
+ width: 30%;
+}
+
+.user-form {
+ background-color: rgb(182, 201, 182);
+ padding: 5%;
+ margin: 5%;
+ 
+}
