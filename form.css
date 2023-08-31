@@ -22,13 +22,14 @@ p {
     margin-top: 1%;
 }
 
-.name input {
- width: 30%;
+.form-group input, .form-group select, textarea {
+    width: 100%;
 }
 
 .user-form {
  background-color: rgb(182, 201, 182);
  padding: 5%;
  margin: 5%;
+ text-transform: capitalize;
  
 }
