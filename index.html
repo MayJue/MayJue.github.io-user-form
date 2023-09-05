@@ -10,11 +10,11 @@
 
     <form class="user-form" action="index.html" method="post">
         <div class="name form-group">
-            <div>
+            <div class = 'first'>
                 <label for="first-name">first name</label>
                 <input type="text">
             </div>
-            <div>
+            <div class = 'last'>
                 <label for="last-name">last name</label>
                 <input type="text">
             </div>
@@ -41,19 +41,15 @@
             </select>
         </div>
         
-        <div>
+        <div id="activities">
             <p class="activities-label">what do you like to do, select all that applies</p>
-            <label for="cooking"> cooking</label>
-            <input type="checkbox" value="cooking">
+            <label for="cooking"><input type="checkbox" value="cooking"> cooking </label>
+            
+            <label for="hiking"><input type="checkbox" value="hiking"> hiking</label>
 
-            <label for="hiking"> hiking</label>
-            <input type="checkbox" value="hiking">
+            <label for="singing"><input type="checkbox" value="singing"> singing</label>
 
-            <label for="singing"> singing</label>
-            <input type="checkbox" value="singing">
-
-            <label for="drawing"> drawing</label>
-            <input type="checkbox" value="drawing">
+            <label for="drawing"><input type="checkbox" value="drawing"> drawing</label>
         </div>
 
         <div class="form-group">
